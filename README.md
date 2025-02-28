@@ -10,6 +10,6 @@ A simple git server written in golang
 
 ## Tasks
 
-- [ ] Add a route to be able to create a repository.
+- [x] Add a route to be able to create a repository.
 - [ ] Add a route to pull the repository.
 - [ ] Add a route to push the code to remote repository.
