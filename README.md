@@ -4,7 +4,7 @@ A simple git server written in golang
 
 ## Design
 
-1. Keep the design simple initially don't add too many dependencies.
+1. Keep the design simple initially don't add too many dependencies. For now not using any framework this might change in future.
 2. Since we don't even have the business logic, don't even think about writing production ready code.
 3. Use as little files as needed.
 

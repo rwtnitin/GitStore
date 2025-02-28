@@ -17,6 +17,7 @@ func main() {
 
 	var mux *http.ServeMux = http.NewServeMux()
 	mux.HandleFunc("GET /health", HealthHandler)
+	mux.HandleFunc("POST /repository", CreateRepositoryHandler)
 
 	var server *http.Server = &http.Server{
 		Addr:    net.JoinHostPort("", PORT),
